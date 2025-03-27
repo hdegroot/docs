@@ -41,7 +41,7 @@ CLASS z2ui5_cl_sample_tab IMPLEMENTATION.
        )->text( '{VALUE}'
        )->text( '{DESCR}' ).
  
-    client->view_display( view->stringify( ) ).
+    client->view_display( tab->stringify( ) ).
  
   ENDMETHOD.
 ENDCLASS.
